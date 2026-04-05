@@ -1,3 +1,4 @@
+import streamlit as st
 weight = st.number_input("Cân nặng (kg)", min_value=0.0)
 height = st.number_input("Chiều cao (m)", min_value=0.0)
 
@@ -17,5 +18,5 @@ if height > 0:
     else:
         st.error("Bạn đang béo phì")
 
-# Disclaimer (rất nên có)
+# Disclaimer 
 st.caption("Công cụ chỉ mang tính tham khảo, không thay thế tư vấn y khoa.")
