@@ -1,4 +1,6 @@
 import streamlit as st
+st.title("Công cụ tính BMI")
+st.write("Nhập chiều cao và cân nặng để tính chỉ số BMI của bạn.")
 weight = st.number_input("Cân nặng (kg)", min_value=0.0)
 height = st.number_input("Chiều cao (m)", min_value=0.0)
 
